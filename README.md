@@ -28,11 +28,7 @@ Used only to check how good the model is.
 Usually ~20–30% of the data.
 
 Example from your code
-from sklearn.model_selection import train_test_split
-
-X_train, X_test, y_train, y_test = train_test_split(
-    X, y, test_size=0.2, random_state=42
-)
+![alt text](image.png)
 
 
 X → features (inputs).
